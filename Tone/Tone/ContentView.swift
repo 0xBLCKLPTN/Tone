@@ -7,15 +7,13 @@
 
 import SwiftUI
 
+var screen = NSScreen.main!.visibleFrame
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        HStack {
+            Sidebar()
+        }.frame(minWidth: 600, minHeight: 400)
     }
 }
 

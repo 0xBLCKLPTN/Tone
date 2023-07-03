@@ -14,6 +14,8 @@
 		A76552472A52D012009014FC /* ToneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76552462A52D012009014FC /* ToneTests.swift */; };
 		A76552512A52D012009014FC /* ToneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76552502A52D012009014FC /* ToneUITests.swift */; };
 		A76552532A52D012009014FC /* ToneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76552522A52D012009014FC /* ToneUITestsLaunchTests.swift */; };
+		A76552642A52D124009014FC /* WidgetComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76552632A52D124009014FC /* WidgetComponent.swift */; };
+		A76552662A52D13C009014FC /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76552652A52D13C009014FC /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		A765524C2A52D012009014FC /* ToneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76552502A52D012009014FC /* ToneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneUITests.swift; sourceTree = "<group>"; };
 		A76552522A52D012009014FC /* ToneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A76552632A52D124009014FC /* WidgetComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetComponent.swift; sourceTree = "<group>"; };
+		A76552652A52D13C009014FC /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		A76552332A52D00F009014FC /* Tone */ = {
 			isa = PBXGroup;
 			children = (
+				A76552672A52D381009014FC /* Components */,
 				A76552342A52D00F009014FC /* ToneApp.swift */,
 				A76552362A52D00F009014FC /* ContentView.swift */,
 				A76552382A52D011009014FC /* Assets.xcassets */,
@@ -127,6 +132,15 @@
 				A76552522A52D012009014FC /* ToneUITestsLaunchTests.swift */,
 			);
 			path = ToneUITests;
+			sourceTree = "<group>";
+		};
+		A76552672A52D381009014FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A76552652A52D13C009014FC /* Sidebar.swift */,
+				A76552632A52D124009014FC /* WidgetComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76552642A52D124009014FC /* WidgetComponent.swift in Sources */,
 				A76552372A52D00F009014FC /* ContentView.swift in Sources */,
+				A76552662A52D13C009014FC /* Sidebar.swift in Sources */,
 				A76552352A52D00F009014FC /* ToneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
